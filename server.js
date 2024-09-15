@@ -36,12 +36,14 @@ app.use(express.static(path.join(__dirname,'public')));
 const router = require('./routes/router');
 app.use('/', router );
 
+const userRouter = require('./routes/userRoutes');
+app.use('/users', userRouter);
 
 /* every other attempt to get */
 app.all('*', (req, res) =>{
     if(req.accepts('html')){
         res.sendFile(path.join(__dirname,'views','404.html'));
-
+        
     }else if(req.accepts('json')){
         res.json({message: '404 not found'});
         

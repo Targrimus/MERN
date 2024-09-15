@@ -1,18 +1,99 @@
-20240915	14:55:21	e3de5139-58d7-401b-b13e-fb958f8a019d	OPTIONS	/	"https://www.google.com/"
-20240915	14:55:21	6ae29cae-994a-44a2-8237-36ffcf3df527	GET	/	"https://www.google.com/"
-20240915	14:56:55	08f1a946-4973-4f38-8c14-e436f1494729	OPTIONS	/	undefined
-20240915	14:56:55	9f7d393e-4e07-4f82-8f39-17549082ebfd	GET	/	undefined
-20240915	14:57:09	636b5eb8-f3e2-4211-9c64-baaf82be3b4e	OPTIONS	/	undefined
-20240915	14:57:09	0d824241-0adf-43a2-b7b9-af3d37472091	GET	/	undefined
-20240915	14:57:13	1aa47dc9-61a8-41bf-8ed6-7eac534e9fc1	OPTIONS	/	undefined
-20240915	14:57:13	edd2abeb-a22d-4333-ba08-5f214508108f	GET	/	undefined
-20240915	14:57:16	870c1137-aebc-4dd4-a083-17d677a269a8	OPTIONS	/	undefined
-20240915	14:57:16	99a67398-ea51-4902-965b-ba42d1e028dc	GET	/	undefined
-20240915	14:57:28	d2e1037c-ef26-420b-91c0-47e2539b9c57	OPTIONS	/	"https://www.youtube.com/"
-20240915	14:57:28	63f794ab-5861-4387-84bb-a4ded9c5aafa	GET	/	"https://www.youtube.com/"
-20240915	14:59:33	9e83aa78-5359-4d44-82ab-693bc51094c1	OPTIONS	/	https://www.google.com/	https://www.google.com
-20240915	14:59:33	0662ba7a-40e0-4a47-a8bc-1696adbf98c4	GET	/	https://www.google.com/	https://www.google.com
-20240915	15:00:05	e9981058-9286-44d8-980f-61df1159ee99	OPTIONS	/	Not Allowed by CORS	https://www.google.com/	https://www.google.com
-20240915	15:00:05	6a2e66af-8ab7-48b4-a3df-1b3058221ac4	GET	/	Not Allowed by CORS	https://www.google.com/	https://www.google.com
-20240915	15:00:29	4c7830aa-83c0-4225-8484-3a10bad20213	OPTIONS	/	Not Allowed by CORS	 referrer: https://www.google.com/	 Origin: https://www.google.com
-20240915	15:00:29	b61c35b5-7d83-450a-886f-6b706bc21657	GET	/	Not Allowed by CORS	 referrer: https://www.google.com/	 Origin: https://www.google.com
+20240915	19:16:05	9c35f9c3-0775-4339-bbd9-093c2498fe83	POST	/users	User validation failed: email: Email is required	undefined	undefined
+20240915	19:16:29	7ca3b18a-4596-4f3e-aa79-b5102e4983b9	POST	/users	User validation failed: user: User name is required, email: Email is required	undefined	undefined
+20240915	19:16:38	677d6e31-e731-4bcd-96a1-0de3551f14ca	POST	/users	Expected double-quoted property name in JSON at position 35	undefined	undefined
+20240915	19:16:42	f7b64070-a9a2-47f1-95eb-599445e87466	POST	/users	User validation failed: email: Email is required, password: Password is required	undefined	undefined
+20240915	19:16:49	a9d60532-f085-43aa-b297-b8a81c92f8dd	POST	/users	Expected ',' or '}' after property value in JSON at position 28	undefined	undefined
+20240915	19:16:54	9107a2e0-d5dd-4372-b2f7-41716c06459b	POST	/users	Expected double-quoted property name in JSON at position 63	undefined	undefined
+20240915	19:16:58	2a6167e1-0e97-41df-9cf4-9883940744fc	POST	/users	User validation failed: password: Password is required	undefined	undefined
+20240915	19:17:06	224b2ca1-fbf8-4ae5-a599-579dbe48ec45	POST	/users	Expected ',' or '}' after property value in JSON at position 57	undefined	undefined
+20240915	19:17:11	943a4177-1c09-44d3-aad4-f7decda75506	POST	/users	User validation failed: user: Username must be at least 3 letters. Please enter a longer username!	undefined	undefined
+20240915	19:22:02	a36ac605-543e-4a7c-b751-13c28464ed60	GET	/users	Array.isEmpty is not a function	undefined	undefined
+20240915	19:26:22	fe465495-0297-4404-8f2b-7401c215b03a	POST	/users	E11000 duplicate key error collection: test.users index: user_1 dup key: { user: "rifat" }	undefined	undefined
+20240915	19:26:26	e956e69a-8df6-4866-b5a6-5f51a544e0c8	POST	/users	E11000 duplicate key error collection: test.users index: user_1 dup key: { user: "rifat" }	undefined	undefined
+20240915	19:26:37	81a47e2d-b875-41a4-9157-0d46c6f0b6ed	POST	/users	E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "rifat@gmail.com" }	undefined	undefined
+20240915	19:33:48	c125bc56-fee4-4c37-a6ce-5098b774a8bd	POST	/users	E11000 duplicate key error collection: test.users index: user_1 dup key: { user: "rifat1" }	undefined	undefined
+20240915	19:34:03	931bae15-8b24-42bb-a667-4bfed51e94c4	POST	/users	E11000 duplicate key error collection: test.users index: user_1 dup key: { user: "rifat2" }	undefined	undefined
+20240915	19:45:16	c7b7d5ad-7ec7-4e92-b3b8-f928a3218074	POST	/users	E11000 duplicate key error collection: test.users index: user_1 dup key: { user: "rifat3" }	undefined	undefined
+20240915	19:46:16	8ef02303-8993-4e0b-8f6c-3538959a1d7f	POST	/users	E11000 duplicate key error collection: test.users index: user_1 dup key: { user: "rifat3" }	undefined	undefined
+20240915	19:46:31	f39f49da-7b7c-49f7-b5f0-ab1d88c482e6	POST	/users	E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "rifat3@gmail.com" }	undefined	undefined
+20240915	19:46:35	d7f42fed-2b95-4a34-b8cd-0e3dfb38db28	POST	/users	E11000 duplicate key error collection: test.users index: username_1 dup key: { username: null }	undefined	undefined
+20240915	19:46:38	411e19bc-50a1-4f2c-8e3a-cc7de2d4180e	POST	/users	User validation failed: email: You must enter a proper e-mail	undefined	undefined
+20240915	19:46:44	1914ea44-3fd5-4704-8625-cb83ae8c59d5	POST	/users	E11000 duplicate key error collection: test.users index: username_1 dup key: { username: null }	undefined	undefined
+20240915	19:47:00	50c50805-2274-41c9-a3d1-ee39c421db10	POST	/users	E11000 duplicate key error collection: test.users index: username_1 dup key: { username: null }	undefined	undefined
+20240915	19:47:13	e0cc59f8-7465-4d6b-b5c5-883b83c5ff16	POST	/users	E11000 duplicate key error collection: test.users index: username_1 dup key: { username: null }	undefined	undefined
+20240915	19:47:15	ea4cd350-3e3b-4262-913e-69340d88feaf	POST	/users	E11000 duplicate key error collection: test.users index: username_1 dup key: { username: null }	undefined	undefined
+20240915	19:47:59	bfe5feb9-f8d2-485a-8425-a265574d33a4	POST	/users	E11000 duplicate key error collection: test.users index: user_1 dup key: { user: null }	undefined	undefined
+20240915	19:48:06	6bc06cb7-65dc-43ff-923c-e2d59cf5ef46	POST	/users	E11000 duplicate key error collection: test.users index: user_1 dup key: { user: null }	undefined	undefined
+20240915	19:48:09	8c66d8cb-56aa-401e-bff9-01bc19167d58	POST	/users	E11000 duplicate key error collection: test.users index: user_1 dup key: { user: null }	undefined	undefined
+20240915	19:49:21	0a8d57da-a708-4ece-8bfe-b123582efabf	POST	/users	E11000 duplicate key error collection: test.users index: user_1 dup key: { user: null }	undefined	undefined
+20240915	19:50:05	486b0a91-916f-4c1a-9c52-b19589cefe44	POST	/users	E11000 duplicate key error collection: test.users index: username_1 dup key: { username: "rifat2" }	undefined	undefined
+20240915	19:50:17	f6706174-33f2-4bd3-b48f-4797cf23c1bc	POST	/users	E11000 duplicate key error collection: test.users index: username_1 dup key: { username: "rifat1" }	undefined	undefined
+20240915	20:04:05	0aaf5ab1-d971-48e2-bd60-be26cf6ebbe2	POST	/users	Parameter "filter" to findOne() must be an object, got "rifat1" (type string)	undefined	undefined
+20240915	20:04:31	e1f895bf-7ca4-4720-8702-4e3663e74e16	POST	/users	data and salt arguments required	undefined	undefined
+20240915	20:04:48	0e9d76f7-06b3-4493-bec4-fc12f06770a1	POST	/users	User validation failed: username: User name is required, email: Email is required, password: Password is required	undefined	undefined
+20240915	20:04:52	adf51fee-e71a-43d0-b79c-8b9df4829a80	POST	/users	User validation failed: username: User name is required, email: Email is required	undefined	undefined
+20240915	20:04:55	38ea25f0-e2fe-4a2b-a055-884463d717be	POST	/users	User validation failed: username: User name is required	undefined	undefined
+20240915	20:04:57	d098bf38-f876-4f07-8500-822e9a7bf154	POST	/users	data and salt arguments required	undefined	undefined
+20240915	20:06:10	b6785eae-7354-46f1-a4d1-c2e23d29cf9e	POST	/users	data and salt arguments required	undefined	undefined
+20240915	20:09:07	279a9918-628c-4e11-8e8d-29ab35702f5a	POST	/users	User validation failed: passwordConfirm: Password is required	undefined	undefined
+20240915	20:09:27	2b25b154-7575-4ed0-9f4d-ae24ef8ae90b	POST	/users	Expected ',' or '}' after property value in JSON at position 92	undefined	undefined
+20240915	20:09:31	232e6170-ed44-41c3-b41e-db0295ae41e4	POST	/users	User validation failed: passwordConfirm: Password is required	undefined	undefined
+20240915	20:09:41	add1d30a-4ec0-4ab8-8ab5-eb35abfe6b02	POST	/users	User validation failed: passwordConfirm: Password is required	undefined	undefined
+20240915	20:10:07	9b014d1a-265a-4b7f-8a96-67cf50fc5817	POST	/users	User validation failed: passwordConfirm: Password is required	undefined	undefined
+20240915	20:10:46	c9cbc5f5-2de7-4072-a340-90d5737004ee	POST	/users	this.isModified is not a function	undefined	undefined
+20240915	20:11:51	a0ca6a1e-8dcd-47a4-92f2-9b7b6f1826f7	POST	/users	E11000 duplicate key error collection: test.users index: username_1 dup key: { username: "rifat1" }	undefined	undefined
+20240915	20:12:00	c0e56550-8ae4-4dbe-b7cb-fe7b8eca5cbd	POST	/users	E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "rifat@gmail.com" }	undefined	undefined
+20240915	20:12:38	c5739a3c-792b-46aa-b507-6da04fd24e59	POST	/users	User validation failed: passwordConfirm: Passwords are not same	undefined	undefined
+20240915	20:14:39	21cbe24f-f8bd-4d72-8798-32115c29a5b5	POST	/users	E11000 duplicate key error collection: test.users index: username_1 dup key: { username: "rifat" }	undefined	undefined
+20240915	20:14:56	5f18a7d9-2df9-4646-a3dc-62a8488df84b	POST	/users	E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "rifat@gmail.com" }	undefined	undefined
+20240915	20:15:16	47903bb7-157c-412f-a2d0-bccf8a5a101d	POST	/users	E11000 duplicate key error collection: test.users index: username_1 dup key: { username: "rifat1" }	undefined	undefined
+20240915	20:15:25	c59049da-e0be-45ca-ab04-6d902c8f7085	POST	/users	User validation failed: passwordConfirm: Passwords are not same	undefined	undefined
+20240915	20:15:31	c5be960f-74ea-49c2-a4e2-89499df0f7c1	POST	/users	User validation failed: passwordConfirm: Passwords are not same	undefined	undefined
+20240915	20:15:34	21f52c11-49cd-4001-81fb-08b3e7b33dc8	POST	/users	E11000 duplicate key error collection: test.users index: username_1 dup key: { username: "rifat3" }	undefined	undefined
+20240915	20:16:38	1aa76ad8-398d-4811-b716-54f971f99ce7	POST	/users	E11000 duplicate key error collection: test.users index: username_1 dup key: { username: "rifat3" }	undefined	undefined
+20240915	20:17:37	26f5cfee-7b60-4a40-8dc8-f5429142edc8	POST	/users	User.create(...).select is not a function	undefined	undefined
+20240915	20:18:31	fcab80ca-6b49-41ac-8d3a-329333e4c61f	POST	/users	E11000 duplicate key error collection: test.users index: username_1 dup key: { username: "rifat5" }	undefined	undefined
+20240915	20:19:55	fa815a49-def7-47ff-bb84-a580ebfc4d37	POST	/users	E11000 duplicate key error collection: test.users index: username_1 dup key: { username: "rifat6" }	undefined	undefined
+20240915	20:22:31	cc016897-769a-4e00-ab06-49d124abe399	POST	/users	E11000 duplicate key error collection: test.users index: username_1 dup key: { username: "rifat2" }	undefined	undefined
+20240915	20:22:59	3a231342-40b9-4ac1-9f25-845400a8eb33	OPTIONS	/	Not Allowed by CORS	undefined	https://www.youtube.com
+20240915	20:22:59	5bb9d80e-518a-43b2-bfbc-37810a8d3f23	GET	/	Not Allowed by CORS	undefined	https://www.youtube.com
+20240915	20:23:25	258c2473-976e-4d83-a10b-64323dc2589b	OPTIONS	/	Not Allowed by CORS	undefined	https://www.youtube.com
+20240915	20:23:25	4c5907ba-bd59-4cda-bee3-b854d7d79eca	GET	/	Not Allowed by CORS	undefined	https://www.youtube.com
+20240915	20:23:35	379927b2-5528-46ab-ab3a-3c40674a5bbe	OPTIONS	/	Not Allowed by CORS	undefined	https://www.youtube.com
+20240915	20:23:35	41f4b6db-d6c8-427a-8442-026c8baaeb5d	GET	/	Not Allowed by CORS	undefined	https://www.youtube.com
+20240915	20:23:59	1627697c-25f2-4e42-9a29-a668b75f4b9a	OPTIONS	/	Not Allowed by CORS	undefined	https://www.youtube.com
+20240915	20:23:59	c93338d8-93d0-4beb-83a6-09dc10254874	GET	/	Not Allowed by CORS	undefined	https://www.youtube.com
+20240915	20:24:12	6b055a19-8278-48ae-a52a-edef66828bb0	OPTIONS	/	Not Allowed by CORS	undefined	https://www.youtube.com
+20240915	20:24:12	c26dc090-5336-4e4d-9d84-f192540fc14d	GET	/	Not Allowed by CORS	undefined	https://www.youtube.com
+20240915	20:33:20	17dd8786-8ab3-4fc0-91d2-f55d5e162da3	POST	/users	E11000 duplicate key error collection: test.users index: username_1 dup key: { username: "rifat2" }	undefined	undefined
+20240915	20:39:24	e3866968-87df-4792-90b4-210f4c3befc3	POST	/users	E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "rifat7@gmail.com" }	undefined	undefined
+20240915	20:56:16	24382b8c-3044-405a-8e33-92a644b09eb3	POST	/users	E11000 duplicate key error collection: test.users index: username_1 dup key: { username: "rifat8" }	undefined	undefined
+20240915	20:58:22	efd3e6ae-44f8-4fb9-92bb-ef836821a941	PATCH	/users/66e7175a87778d6d0c51ee8f	Validation failed: passwordConfirm: Passwords are not same	undefined	undefined
+20240915	20:58:31	8aa7b720-ba80-4065-9de9-700c1cc6dba5	PATCH	/users/66e7175a87778d6d0c51ee8f	Validation failed: passwordConfirm: Passwords are not same	undefined	undefined
+20240915	20:58:53	04f8e39c-16c9-47c1-8dfd-964813606174	PATCH	/users/66e7175a87778d6d0c51ee8f	Validation failed: passwordConfirm: Passwords are not same	undefined	undefined
+20240915	20:58:59	5d4d6e50-081d-4c4b-bc41-26c3cf7a0914	PATCH	/users/66e7175a87778d6d0c51ee8f	Validation failed: passwordConfirm: Passwords are not same	undefined	undefined
+20240915	20:59:01	7ebe7c24-0c0a-4582-b7d2-a2cbab14be53	PATCH	/users/66e7175a87778d6d0c51ee8f	Expected double-quoted property name in JSON at position 74	undefined	undefined
+20240915	20:59:06	dbe2d2ad-03d1-438c-896d-8f678bb69e0f	PATCH	/users/66e7175a87778d6d0c51ee8f	Plan executor error during findAndModify :: caused by :: E11000 duplicate key error collection: test.users index: username_1 dup key: { username: "rifat8" }	undefined	undefined
+20240915	20:59:17	30bdff78-5775-4b44-b3d2-78fe3bb38c5a	PATCH	/users/66e7175a87778d6d0c51ee8f	Plan executor error during findAndModify :: caused by :: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "rifat8@gmail.com" }	undefined	undefined
+20240915	21:05:10	ad9c594e-8d8a-4a12-9e93-6804f9b4773d	GET	/users/66e7175a87778d6d0c51ee8	Cast to ObjectId failed for value "66e7175a87778d6d0c51ee8" (type string) at path "_id" for model "User"	undefined	undefined
+20240915	21:05:23	8072c905-793a-4921-b639-953beb506b78	GET	/users/6	Cast to ObjectId failed for value "6" (type string) at path "_id" for model "User"	undefined	undefined
+20240915	21:05:57	a601e584-6535-43d7-a016-d648a23936c1	GET	/users/6	Cast to ObjectId failed for value "6" (type string) at path "_id" for model "User"	undefined	undefined
+20240915	21:06:32	40cc6e97-f0b1-4b3b-a169-19a6be9809c9	PATCH	/users/66e7175a87778d6d0c51ee8f	Plan executor error during findAndModify :: caused by :: E11000 duplicate key error collection: test.users index: username_1 dup key: { username: "rifat8" }	undefined	undefined
+20240915	21:06:47	4cb21a57-bf96-425f-9dd1-24cbb366a709	PATCH	/users/66e7175a87778d6d0c51ee8f	Plan executor error during findAndModify :: caused by :: E11000 duplicate key error collection: test.users index: username_1 dup key: { username: "rifat8" }	undefined	undefined
+20240915	21:06:53	2cca3063-5f3a-45e6-a592-871333ec3240	PATCH	/users/66e7175a87778d6d0c51ee8f	Plan executor error during findAndModify :: caused by :: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "rifat8@gmail.com" }	undefined	undefined
+20240915	21:07:22	be525424-e53e-460a-879c-0e781946f0d9	PATCH	/users/66e7175a87778d6d0c51ee8f	Expected ',' or '}' after property value in JSON at position 69	undefined	undefined
+20240915	21:09:30	0a323313-29b9-420f-b751-6cc6451eca54	POST	/users	E11000 duplicate key error collection: test.users index: username_1 dup key: { username: "rifat" }	undefined	undefined
+20240915	21:15:39	d7d3444d-f04a-438e-839b-2797e13dcd42	PATCH	/users/66e722d60476fbf6bef5cba6	Validation failed: passwordConfirm: Passwords are not same	undefined	undefined
+20240915	21:16:34	b97beb8b-7695-4ee8-acaa-6f6721fee8f5	PATCH	/users/66e722d60476fbf6bef5cba6	Validation failed: passwordConfirm: Passwords are not same	undefined	undefined
+20240915	21:24:12	8c74727a-6111-42d6-9b5f-38cea160d565	PATCH	/users/66e722d60476fbf6bef5cba6	Expected double-quoted property name in JSON at position 76	undefined	undefined
+20240915	21:25:32	e5035f2e-fdf4-4ee6-9fe3-6d2b7b513e76	PATCH	/users/66e722d60476fbf6bef5cba6	Expected double-quoted property name in JSON at position 76	undefined	undefined
+20240915	21:25:47	e249b2fd-319d-4d0c-a9a5-94aeefebc310	PATCH	/users/66e722d60476fbf6bef5cba6	Validation failed: passwordConfirm: Passwords are not same	undefined	undefined
+20240915	21:25:51	33d57b13-5996-403d-82d7-da7a1af6efd7	PATCH	/users/66e722d60476fbf6bef5cba6	Validation failed: passwordConfirm: Passwords are not same	undefined	undefined
+20240915	21:25:56	d7e676e0-5107-490f-9db4-f4600d35f71f	PATCH	/users/66e722d60476fbf6bef5cba6	Validation failed: passwordConfirm: Passwords are not same	undefined	undefined
+20240915	21:25:58	bce41c08-c3cb-4b82-a493-eb3febab09ea	PATCH	/users/66e722d60476fbf6bef5cba6	Validation failed: passwordConfirm: Passwords are not same	undefined	undefined
+20240915	21:27:42	b8336f36-0fa7-414a-bb05-eaf5bb5a810c	PATCH	/users/66e722d60476fbf6bef5cba6	Validation failed: passwordConfirm: Passwords are not same	undefined	undefined
+20240915	21:28:05	424cab43-ed21-4d7c-aaf4-01b511ccb0ed	PATCH	/users/66e722d60476fbf6bef5cba6	Expected ',' or '}' after property value in JSON at position 69	undefined	undefined
+20240915	21:32:14	3de634cb-f7d5-43f4-8745-ca653f002094	PATCH	/users/66e722d60476fbf6bef5cba6	Validation failed: passwordConfirm: Passwords are not same	undefined	undefined
+20240915	21:32:17	bd9ff563-f327-474a-9771-c791e479fb48	PATCH	/users/66e722d60476fbf6bef5cba6	Validation failed: passwordConfirm: Passwords are not same	undefined	undefined
+20240915	21:40:14	60a21bf3-e427-4547-a119-079e5a0b776d	PATCH	/users/66e722d60476fbf6bef5cba6	Expected double-quoted property name in JSON at position 46	undefined	undefined
+20240915	21:44:57	c840cf5d-cdf6-430e-9329-402ca9796cf7	PATCH	/users/66e722d60476fbf6bef5cba6	error is not defined	undefined	undefined
