@@ -1,0 +1,18 @@
+20240915	14:55:21	e3de5139-58d7-401b-b13e-fb958f8a019d	OPTIONS	/	"https://www.google.com/"
+20240915	14:55:21	6ae29cae-994a-44a2-8237-36ffcf3df527	GET	/	"https://www.google.com/"
+20240915	14:56:55	08f1a946-4973-4f38-8c14-e436f1494729	OPTIONS	/	undefined
+20240915	14:56:55	9f7d393e-4e07-4f82-8f39-17549082ebfd	GET	/	undefined
+20240915	14:57:09	636b5eb8-f3e2-4211-9c64-baaf82be3b4e	OPTIONS	/	undefined
+20240915	14:57:09	0d824241-0adf-43a2-b7b9-af3d37472091	GET	/	undefined
+20240915	14:57:13	1aa47dc9-61a8-41bf-8ed6-7eac534e9fc1	OPTIONS	/	undefined
+20240915	14:57:13	edd2abeb-a22d-4333-ba08-5f214508108f	GET	/	undefined
+20240915	14:57:16	870c1137-aebc-4dd4-a083-17d677a269a8	OPTIONS	/	undefined
+20240915	14:57:16	99a67398-ea51-4902-965b-ba42d1e028dc	GET	/	undefined
+20240915	14:57:28	d2e1037c-ef26-420b-91c0-47e2539b9c57	OPTIONS	/	"https://www.youtube.com/"
+20240915	14:57:28	63f794ab-5861-4387-84bb-a4ded9c5aafa	GET	/	"https://www.youtube.com/"
+20240915	14:59:33	9e83aa78-5359-4d44-82ab-693bc51094c1	OPTIONS	/	https://www.google.com/	https://www.google.com
+20240915	14:59:33	0662ba7a-40e0-4a47-a8bc-1696adbf98c4	GET	/	https://www.google.com/	https://www.google.com
+20240915	15:00:05	e9981058-9286-44d8-980f-61df1159ee99	OPTIONS	/	Not Allowed by CORS	https://www.google.com/	https://www.google.com
+20240915	15:00:05	6a2e66af-8ab7-48b4-a3df-1b3058221ac4	GET	/	Not Allowed by CORS	https://www.google.com/	https://www.google.com
+20240915	15:00:29	4c7830aa-83c0-4225-8484-3a10bad20213	OPTIONS	/	Not Allowed by CORS	 referrer: https://www.google.com/	 Origin: https://www.google.com
+20240915	15:00:29	b61c35b5-7d83-450a-886f-6b706bc21657	GET	/	Not Allowed by CORS	 referrer: https://www.google.com/	 Origin: https://www.google.com

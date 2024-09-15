@@ -20,8 +20,8 @@ async function logEvents  (message, fileName){
 }
 
 const logger = (req, res, next) => {
-    logEvents(`${req.method}\t${req.url}\t${JSON.stringify(req.headers.referer)}`,'logfile.log');
-    console.log(`${req.method}\t${req.path}\t${req.headers.referer}`);
+    logEvents(`${req.method}\t${req.url}\t${req.headers.referer}\t${req.headers.origin}`,'logfile.log');
+    console.log(`${req.method}\t${req.path}\t${req.headers.referer}\t${req.headers.origin}`);
     //console.log(req);
     next();
 }

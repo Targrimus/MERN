@@ -21,3 +21,27 @@
 20240915	14:45:49	1ee8ef48-fc44-47b5-a582-3757d77698e4	GET	/res	undefined
 20240915	14:45:49	ac2f2ec4-bc22-4a39-b3fa-0cf1443a031d	GET	/css/style.css	"http://localhost:5000/res"
 20240915	14:45:57	5be45dcf-f1b9-45a6-8d1b-76285d1cb3bc	GET	/	"https://www.youtube.com/"
+20240915	14:53:08	420c35ff-965a-4ab1-89fa-e850023a5a8b	GET	/res	undefined
+20240915	14:53:08	9d83579f-3aac-4d84-8025-833c8c4ebabf	GET	/css/style.css	"http://localhost:5000/res"
+20240915	14:53:54	dbd33dff-70d8-4155-8800-3a68f29222c6	GET	/res	undefined	undefined
+20240915	14:53:54	104e9556-1775-47c8-bd86-84dbbcd29deb	GET	/css/style.css	http://localhost:5000/res	undefined
+20240915	14:53:56	8617fe67-ab31-4365-b0ba-6bee5e8d761a	GET	/res	undefined	undefined
+20240915	14:53:56	6c0a6d99-5a8d-40d6-a552-a3f491c278e2	GET	/css/style.css	http://localhost:5000/res	undefined
+20240915	15:04:12	b00bcf2b-8a7d-4959-b320-c403a91080a6	GET	/res	undefined	undefined
+20240915	15:04:12	08a89292-0593-4ae7-866a-8d097888b810	GET	/css/style.css	http://localhost:5000/res	undefined
+20240915	15:04:16	06c1d8ef-6fcb-4d91-8c90-5eae034d758f	GET	/	undefined	undefined
+20240915	15:04:16	a9d34f23-aede-4311-9a7d-fe55769fe6b0	GET	/css/style.css	http://localhost:5000/	undefined
+20240915	15:05:41	a19a47bb-a27e-4454-be89-178649a188ba	GET	/	undefined	undefined
+20240915	15:05:41	02423d8e-515d-4081-9faf-cdde390d456d	GET	/css/style.css	http://localhost:5000/	undefined
+20240915	16:19:16	3a1fad05-babb-46f0-b106-7f1d7cfc7356	GET	/	undefined	undefined
+20240915	16:19:16	7992bff6-7c6e-482f-ae08-9b244b9a96cc	GET	/css/style.css	http://localhost:5000/	undefined
+20240915	16:19:33	7831db20-6c14-4681-b786-da29899515dd	GET	/test	undefined	undefined
+20240915	16:19:33	1f07bfbf-8ff5-4266-839d-24b2db77b0a2	GET	/css/style.css	http://localhost:5000/test	undefined
+20240915	16:24:29	1861b6d9-be53-429f-b467-b1476ed76e7d	GET	/test	undefined	undefined
+20240915	16:24:29	f4758fd0-e98e-42c3-8d0c-fd40e5cd0795	GET	/css/style.css	http://localhost:5000/test	undefined
+20240915	16:24:33	1cff7df0-fb0e-45c4-8466-5e1e7d33d335	GET	/	undefined	undefined
+20240915	16:24:33	02a4bcc0-e0a4-46bc-857e-f62e2edeccbe	GET	/css/style.css	http://localhost:5000/	undefined
+20240915	16:26:03	2c222c3f-84b5-49ec-915a-d24eb9377f17	GET	/	undefined	undefined
+20240915	16:26:03	66393200-c0c3-43ed-8ebc-5d19d92ffe83	GET	/css/style.css	http://localhost:5000/	undefined
+20240915	16:26:11	6b7844bf-0e3b-41be-beff-ab4cf0751524	GET	/	undefined	undefined
+20240915	16:26:11	8cc34033-bbd9-467a-94b8-c126f584e6ac	GET	/css/style.css	http://localhost:5000/	undefined
